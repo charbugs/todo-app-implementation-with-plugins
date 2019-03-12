@@ -1,0 +1,32 @@
+{
+  "name": "@charbugs/todo-app-implementation-with-plugins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charbugs/todo-app-implementation-with-plugins.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charbugs/todo-app-implementation-with-plugins/issues"
+  },
+  "homepage": "https://github.com/charbugs/todo-app-implementation-with-plugins#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "@charbugs/extensible-todo-app": "^1.0.9",
+    "@charbugs/todo-trash-plugin": "^1.0.3",
+    "@charbugs/toggle-editor-plugin": "^1.0.0",
+    "@charbugs/upper-case-plugin": "^1.0.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
